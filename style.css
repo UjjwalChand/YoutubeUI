@@ -213,6 +213,32 @@ main {
         width: 25rem;
         }
   }
+
+  @media screen and (min-width:360px) and (max-width:915px) {
+    .card{
+      flex-direction: column;
+      align-items: center;
+      flex-wrap: wrap;
+      width: 100%;
+      /* border: 2px solid black; */
+    }
+  
+    .shortscontain{
+      width: 95%;
+  
+    }
+  
+    .shorts-vid{
+      width: 100%;
+      height: 70%;
+    }
+  
+    .shorts-vid img{
+      width: 90%;
+    }
+  
+  }
+
 #india {
   display: flex;
   flex-direction: column;
@@ -263,4 +289,14 @@ main {
   /* flex-direction: column; */
   align-self: flex-end;
   /* border: 1px solid black; */
+}
+
+.shortscontain img:hover{
+  background-color: rgb(149, 148, 148);
+  opacity: 0.70;
+}
+
+.thumbnail img:hover{
+  background-color: rgb(149, 148, 148);
+  opacity: 0.70;
 }
